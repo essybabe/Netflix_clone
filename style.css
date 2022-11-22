@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+.banner{ 
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(netflix-library-photo-scaled-1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.nav{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.netflix-text{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-bottom: 20px;
+}
+/* #logo{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    
+} */
+#btn{
+    background-color: red;
+    color: white;
+    width: 6rem;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 50rem;
+    bottom: 45px;
+
+}
+
+#btn a{
+    text-decoration: none;
+    color: white;
+}
+.content-h1{
+    /* font-size: 30px; */
+}
+.content-p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.content-p1{
+    font-size: 18px;
+    margin-top: 10px;
+
+}.mail{
+    width: 30rem;
+    float: left;
+    height: 3rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+.next{
+    width: 10rem;
+    height: 45px;
+    margin-top: 30px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+}
+.next a{
+    /* padding: 20rem; */
+    height: 40px;
+    position: relative;
+    bottom:  20px;
+    
+    /* color: white; */
+    /* padding-top: 20px; */
+    
+}
+.row{
+    background-color: black;
+    
+    
+
+}
+.col{
+    padding: 100px;
+}
+/* #hr1{
+    width: 40px;
+    color: rgb(69, 68, 68);
+} */
+.content{
+    padding: 40px;
+    color: white;
+    column-count: 2;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 10rem;
+    padding-top: 10px;
+    
+    
+}
+
+#img2{
+    width: 40rem;
+    position: relative;
+    bottom: 20%;
+    
+}
+#content-p2{
+    font-size: 25px;
+}
+.content-h2{
+    margin-top: 10px;
+}
+.row1{
+    background-color: black;
+    /* position: relative;
+    top: 20px; */
+
+}
+
+
+
+.col3{
+    padding-top: 40px;
+}
+.content2{
+    padding: 40px;
+    color: white;
+    column-count: 2;
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    top: 20%;
+    
+    padding-top: 10%;
+    
+    
+}
+
+#img3{
+    width: 40rem;
+    position: relative;
+    bottom:20%;
+    
+}
+#content-p3{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family:sans-serif;
+}
+.content-h3{
+    margin-top: 10px;
+    position: relative;
+    bottom: 20%;
+    font-weight: bolder;
+
+    /* font-size: 40px; */
+}
+.content3{
+    padding: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+   
+}
+.content4{
+    padding: 40px;
+    color: white;
+    column-count: 2;
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    top: 20%;
+    
+    padding-top: 10%;
+    
+    
+}
+.wrapper{
+    background-color: rgb(54, 52, 52);
+    width: 80vw;
+    margin: 10px auto;
+}
+.accordion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(54, 52, 52);
+    width: 80vw;
+    margin: 10px auto;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+
+}
+.icon{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.drop{
+    display: none;
+}
+
+.show{
+    display: block;
+    
+}
+#demo{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+#demo1{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+#demo2{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+#demo3{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+#demo4{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+#demo5{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+.content5{
+    padding: 40px 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.content6{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+.form-content{
+    display:inline-flex;
+    flex: 20%;
+}
+#mail{
+    width: 30px;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    
+}
+.cont{
+    padding: 20px;
+    color:rgb(153, 140, 140) ;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.grid{
+    column-count: 4;
+    margin: 80px;
+    color: rgb(153, 140, 140);
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    cursor: pointer;
+
+    
+
+
+}
+.grid ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.grid ul li:hover{
+    text-decoration: underline;
+}
+.net{
+    color:  rgb(153, 140, 140);
+    margin: 60px;
+    margin-top: 20px;
+}
+.next1{
+    width: 10rem;
+    height: 52px;
+    margin-top: 20px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 8px;
+}
+.next1 a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    
+}
